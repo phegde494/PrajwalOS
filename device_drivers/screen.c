@@ -2,7 +2,7 @@
 #include "port_handling.h"
 #include <stdint.h>
 #include "../kernel/mem.h"
-#include "../kernel/util.h"
+#include "../kernel/utilities.h"
 
 // Positions cursor in correct location
 void set_cursor(int offset) {

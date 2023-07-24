@@ -1,9 +1,9 @@
 #include <stdbool.h>
 #include "keyboard.h"
-#include "ports.h"
+#include "port_handling.h"
 #include "../hardware_interrupts/isr.h"
 #include "screen.h"
-#include "../kernel/util.h"
+#include "../kernel/utilities.h"
 #include "../kernel/kernel.h"
 
 #define BACKSPACE 0x0E

@@ -14,6 +14,7 @@ First, install all required dependencies using the **install_dependencies.sh** b
 Now you can boot the OS using: `make run`
 
 ### Demo
+https://github.com/phegde494/PrajwalOS/assets/48624928/7f4ee887-28cb-4594-879c-8a6bf37ef072
 
 
 

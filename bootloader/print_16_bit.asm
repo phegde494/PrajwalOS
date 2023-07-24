@@ -3,7 +3,7 @@ print16:
 
 
 print16_loop:
-    mov al, [bx] ; 'bx' is the base address for the string
+    mov al, [bx] ; 'bx' is base address for the string
     cmp al, 0
     je print16_done
 

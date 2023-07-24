@@ -10,7 +10,7 @@ call print16
 call print16_nl
 
 call load_kernel ; read kernel from disk
-call switch_to_32bit ; disable interrupts & load GDT
+call switch_to_32bit ; disable interrupts, load GDT
 jmp $ 
 
 %include "bootloader/print_16_bit.asm"

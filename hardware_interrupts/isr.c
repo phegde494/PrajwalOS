@@ -6,7 +6,7 @@
 
 isr_t interrupt_handlers[256];
 
-// Set up all the interrupt handlers
+// Set up all interrupt handlers
 void isr_install() {
     set_idt_gate(0, (uint32_t) isr0);
     set_idt_gate(1, (uint32_t) isr1);

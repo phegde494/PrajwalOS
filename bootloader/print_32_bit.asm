@@ -1,8 +1,8 @@
 [bits 32] ; using 32-bit protected mode
 
-; this is how constants are defined
+; define constraints
 VIDEO_MEMORY equ 0xb8000
-WHITE_ON_BLACK equ 0x0f ; the color byte for each character
+WHITE_ON_BLACK equ 0x0f
 
 print32:
     pusha

@@ -13,7 +13,7 @@ void set_cursor(int offset) {
     port_byte_out(REG_SCREEN_DATA, (unsigned char) (offset & 0xff));
 }
 
-// Gets current cursor location
+// Gets cursor location
 int get_cursor() {
     port_byte_out(REG_SCREEN_CTRL, 14);
     int offset = port_byte_in(REG_SCREEN_DATA) << 8; 

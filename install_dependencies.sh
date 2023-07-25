@@ -1,3 +1,5 @@
+#bin/bash
+
 brew install qemu nasm
 brew install i386-elf-binutils
 brew install i386-elf-gcc
